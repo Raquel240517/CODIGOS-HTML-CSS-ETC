@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 400px;
+}
+
+div{
+    height: 400px;
+}
+
+.fondoColor{
+    background-color: darkseagreen;
+}
+
+.fondoOpacidad{
+    background-color: brown;
+    opacity: 0.6;
+}
+
+.fondoGradiente{
+    background: linear-gradient(rgba(2,0,36,1), rgba(9,9,121,1)) ;
+}
+
+.fondoImagen{
+    background-image: url("../PRACTIVAS HTML/colors.jpg");
+}
+
+.fondoRepetidoX{
+    background-image: url("../PRACTIVAS HTML/fondos2.jpg");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("../PRACTIVAS HTML/fondo3.png");
+    background-repeat: repeat-y;
+}
+
+.fondoNoReptido{
+    background-image: url("../PRACTIVAS HTML/fondos4.jpg") ;
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("../PRACTIVAS HTML/colors.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.fondoCompleto{
+    background-image: url("../PRACTIVAS HTML/fondos2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
